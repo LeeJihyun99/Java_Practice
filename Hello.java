@@ -17,12 +17,22 @@ public class Hello{
             String s1 = new String("Java");
             String s2 =  new String("Java");
 
+            String s3 = "Java";
+            String s4 = "Java";
+
+
             System.out.println("Hello World");
             System.out.println(score);
             System.out.println(int_score);
             System.out.println(z);
+
             System.out.println(name);
             System.out.println(changed_name);
-            System.out.println(s1 == s2);
+
+            System.out.println(s1 == s2); //false
+            System.out.println(s1.equals(s2)); //true
+
+            System.out.println(s3 == s4); //true
+            System.out.println(s3.equals(s4)); //true
     }
 }
